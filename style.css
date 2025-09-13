@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header {
+    border: 1px solid red;
+    height: 124px;
+}
+
+.header-box,
+.footer-box {
+    border: 1px solid #000;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.header-button {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    height: 40px;
+    width: 98px;
+    border-radius: 2px;
+    padding: 8px 16px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-controls--login {
+    color: #fff;
+    background-color: #1890FF;
+}
+
+.header-controls--login span {
+    align-content: center;
+}
+
+.header-controls--basket {
+    color: #000;
+    border: 1px solid #D9D9D9;
+}
+
+.header-controls--basket span {
+    align-content: center;
+}
+
+.main {}
+
+.footer {
+    border: 1px solid red;
+    height: 156px;
+}
+
+.footer-nav {
+    flex-grow: 1;
+}
+.footer-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-social {
+    display: flex;
+    gap: 21px;
+}
+
+.footer-social a {
+    height: 25px;
+}
+
+.footer-social a img {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
