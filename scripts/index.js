@@ -133,7 +133,7 @@ const restsFunc = () => {
 const goodsFunc = () => {
     const container = document.querySelector("#goods-container");
 
-    const restArray = [
+    const goodsArray = [
         {
             id: 0,
             title: 'Пицца плюс',
@@ -182,7 +182,7 @@ const goodsFunc = () => {
         container.innerHTML = "<p style='width: 100%; text-align: center;'>Загрузка</p>";
     }
 
-    const renderRests = (array) => {
+    const renderGoods = (array) => {
         container.innerHTML = "";
 
         array.forEach((card) => {
@@ -223,7 +223,7 @@ const goodsFunc = () => {
     if (container) {
         loading();
         setTimeout(() => {
-            renderRests(restArray);
+            renderGoods(goodsArray);
         }, 1000)
     }
 }
