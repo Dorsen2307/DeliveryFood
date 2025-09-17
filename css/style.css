@@ -137,7 +137,7 @@ main {
 }
 
 .banner-item {
-    background: #fff188 url("images/banners/banner-img.png") no-repeat center right;
+    background: #fff188 url("../images/banners/banner-img.png") no-repeat center right;
     background-size: contain;
     padding: 68px;
     border-radius: 10px;

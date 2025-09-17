@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./scripts/index.js" defer></script>
     <title>Delivery Food</title>
 </head>
 
@@ -21,7 +22,7 @@
                             <img src="images/icons/icon-login.png" alt="Icon login">
                             Войти
                         </button>
-                        <button class="btn btn-outline">
+                        <button class="btn btn-outline" id="cart-button">
                             <img src="images/icons/icon-basket.png" alt="Icon basket">
                             Корзина
                         </button>
@@ -32,7 +33,7 @@
         <main class="main">
             <section class="products">
                 <div class="container">
-                    <div class="products-wrapper">
+                    <div class="products-wrapper" id="goods-container">
                         <div class="products-card">
                             <div class="products-card__image">
                                 <img src="./images/goods/eel_roll_standard.jpg" alt="eel_roll_standard">
